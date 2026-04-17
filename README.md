@@ -58,7 +58,7 @@ User Input → Feature Extraction → Rule Activation → FAISS Retrieval → LL
 
 ## Results
 
-![Results](screenshots/results_table.png)
+![Results](screenshots/result_table.png)
 
 - Accuracy: 79.4%
 - Precision: 97.2%
