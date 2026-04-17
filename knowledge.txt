@@ -1,0 +1,379 @@
+========================
+URL BASED RULES
+========================
+
+Rule ID: URL_01
+Category: URL_BASED_RULES
+Rule: Raw IP Address in URL
+Explanation: Phishing websites sometimes use raw IP addresses instead of domain names to bypass domain reputation systems.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_02
+Category: URL_BASED_RULES
+Rule: Excessive Domain Length
+Explanation: Phishing URLs often contain unusually long domain names designed to mimic legitimate services.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_03
+Category: URL_BASED_RULES
+Rule: Excessive Subdomains
+Explanation: Multiple subdomains are commonly used in phishing URLs to disguise the real domain.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_04
+Category: URL_BASED_RULES
+Rule: Suspicious Top-Level Domain
+Explanation: Phishing sites frequently use uncommon or recently registered top-level domains.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_05
+Category: URL_BASED_RULES
+Rule: URL Shortening Services
+Explanation: Attackers often hide malicious links behind URL shortening services.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_06
+Category: URL_BASED_RULES
+Rule: Typosquatting Domain
+Explanation: Phishing domains may intentionally misspell legitimate brand names.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_07
+Category: URL_BASED_RULES
+Rule: Excessive Digits in Domain
+Explanation: Domains containing many numeric characters may indicate automatically generated phishing sites.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_08
+Category: URL_BASED_RULES
+Rule: Suspicious URL Path Length
+Explanation: Long and complex URL paths can indicate attempts to disguise malicious pages.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_09
+Category: URL_BASED_RULES
+Rule: Special Characters in URL
+Explanation: Unusual characters such as '@', '%', or multiple hyphens may appear in phishing URLs.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_10
+Category: URL_BASED_RULES
+Rule: Brand Name in Subdomain
+Explanation: Attackers may place brand names in subdomains to mimic legitimate websites.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_11
+Category: URL_BASED_RULES
+Rule: HTTP Instead of HTTPS
+Explanation: Lack of HTTPS encryption may indicate insecure or malicious websites.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_12
+Category: URL_BASED_RULES
+Rule: Suspicious Domain Age
+Explanation: Newly registered domains are frequently used in phishing campaigns.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_13
+Category: URL_BASED_RULES
+Rule: URL Contains Login Keywords
+Explanation: Words such as 'login', 'verify', or 'update' often appear in phishing links.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_14
+Category: URL_BASED_RULES
+Rule: Multiple Redirects
+Explanation: Phishing links may use redirection chains to hide the final destination.
+Effect: Increase phishing likelihood
+
+Rule ID: URL_15
+Category: URL_BASED_RULES
+Rule: Encoded URL Characters
+Explanation: Attackers sometimes encode characters in URLs to hide malicious patterns.
+Effect: Increase phishing likelihood
+
+========================
+SENDER AUTHENTICITY RULES
+========================
+
+Rule ID: SA_01
+Category: SENDER_AUTHENTICITY_RULES
+Rule: Sender Domain Mismatch
+Explanation: The sender email domain does not match the organization being represented.
+Effect: Increase phishing likelihood
+
+Rule ID: SA_02
+Category: SENDER_AUTHENTICITY_RULES
+Rule: Display Name Spoofing
+Explanation: Attackers may use a legitimate company name as the sender display name.
+Effect: Increase phishing likelihood
+
+Rule ID: SA_03
+Category: SENDER_AUTHENTICITY_RULES
+Rule: Suspicious Reply-To Address
+Explanation: The reply-to address differs from the sender address.
+Effect: Increase phishing likelihood
+
+Rule ID: SA_04
+Category: SENDER_AUTHENTICITY_RULES
+Rule: Free Email Provider
+Explanation: Phishing emails often originate from free email services instead of official domains.
+Effect: Increase phishing likelihood
+
+Rule ID: SA_05
+Category: SENDER_AUTHENTICITY_RULES
+Rule: Slight Domain Variation
+Explanation: Phishing domains often contain small spelling variations of legitimate domains.
+Effect: Increase phishing likelihood
+
+Rule ID: SA_06
+Category: SENDER_AUTHENTICITY_RULES
+Rule: Randomized Sender Address
+Explanation: Sender addresses containing random strings may indicate automated phishing campaigns.
+Effect: Increase phishing likelihood
+
+Rule ID: SA_07
+Category: SENDER_AUTHENTICITY_RULES
+Rule: Suspicious Sender Reputation
+Explanation: Unknown or recently created sender domains may indicate phishing attempts.
+Effect: Increase phishing likelihood
+
+Rule ID: SA_08
+Category: SENDER_AUTHENTICITY_RULES
+Rule: Missing Email Authentication
+Explanation: Absence of SPF, DKIM, or DMARC authentication may indicate spoofed emails.
+Effect: Increase phishing likelihood
+
+Rule ID: SA_09
+Category: SENDER_AUTHENTICITY_RULES
+Rule: External Sender Warning
+Explanation: Emails marked as external may pose higher phishing risk.
+Effect: Increase phishing likelihood
+
+Rule ID: SA_10
+Category: SENDER_AUTHENTICITY_RULES
+Rule: Sender Identity Inconsistency
+Explanation: Sender identity does not match the message content.
+Effect: Increase phishing likelihood
+
+========================
+SOCIAL ENGINEERING RULES
+========================
+
+Rule ID: SE_01
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Urgency Language
+Explanation: Phishing emails frequently create urgency to pressure users into immediate action.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_02
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Threat or Fear Message
+Explanation: Messages threatening account suspension or penalties are common phishing tactics.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_03
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Authority Impersonation
+Explanation: Attackers impersonate banks, government agencies, or IT departments.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_04
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Financial Reward Bait
+Explanation: Messages promising prizes or rewards may be phishing attempts.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_05
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Account Verification Request
+Explanation: Requests to verify account information are common phishing techniques.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_06
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Unexpected Payment Request
+Explanation: Unexpected payment instructions may indicate business email compromise.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_07
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Password Reset Request
+Explanation: Fake password reset requests may attempt to steal credentials.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_08
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Suspicious Attachment
+Explanation: Emails asking users to open urgent attachments may contain malware.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_09
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Confidential Information Request
+Explanation: Requests for sensitive personal or financial information indicate phishing.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_10
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Time Pressure Tactics
+Explanation: Messages imposing deadlines encourage rushed decisions.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_11
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Fake Security Alert
+Explanation: Fake alerts claiming suspicious account activity may attempt credential theft.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_12
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Suspicious Call-To-Action
+Explanation: Instructions urging users to click links or download files.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_13
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Unusual Account Activity Warning
+Explanation: Messages claiming unusual activity may attempt to steal login credentials.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_14
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Business Email Compromise Indicator
+Explanation: Emails requesting urgent financial transfers may indicate BEC attacks.
+Effect: Increase phishing likelihood
+
+Rule ID: SE_15
+Category: SOCIAL_ENGINEERING_RULES
+Rule: Fake Technical Support
+Explanation: Attackers may impersonate technical support personnel.
+Effect: Increase phishing likelihood
+
+========================
+LINGUISTIC ANOMALY RULES
+========================
+
+Rule ID: LA_01
+Category: LINGUISTIC_ANOMALY_RULES
+Rule: Generic Greeting
+Explanation: Greetings such as "Dear Customer" are commonly used in phishing emails.
+Effect: Increase phishing likelihood
+
+Rule ID: LA_02
+Category: LINGUISTIC_ANOMALY_RULES
+Rule: Grammar Errors
+Explanation: Poor grammar and spelling errors are common in phishing messages.
+Effect: Increase phishing likelihood
+
+Rule ID: LA_03
+Category: LINGUISTIC_ANOMALY_RULES
+Rule: Unusual Sentence Structure
+Explanation: Phishing emails may contain awkward or unnatural phrasing.
+Effect: Increase phishing likelihood
+
+Rule ID: LA_04
+Category: LINGUISTIC_ANOMALY_RULES
+Rule: Inconsistent Formatting
+Explanation: Irregular formatting may indicate malicious content.
+Effect: Increase phishing likelihood
+
+Rule ID: LA_05
+Category: LINGUISTIC_ANOMALY_RULES
+Rule: Unprofessional Tone
+Explanation: Lack of professional tone may indicate scam messages.
+Effect: Increase phishing likelihood
+
+Rule ID: LA_06
+Category: LINGUISTIC_ANOMALY_RULES
+Rule: Excessive Capitalization
+Explanation: Words written in full capital letters may attempt to manipulate the reader.
+Effect: Increase phishing likelihood
+
+Rule ID: LA_07
+Category: LINGUISTIC_ANOMALY_RULES
+Rule: Suspicious Language Style
+Explanation: Language inconsistent with legitimate corporate communication.
+Effect: Increase phishing likelihood
+
+Rule ID: LA_08
+Category: LINGUISTIC_ANOMALY_RULES
+Rule: Emotional Manipulation
+Explanation: Messages designed to provoke fear or excitement.
+Effect: Increase phishing likelihood
+
+Rule ID: LA_09
+Category: LINGUISTIC_ANOMALY_RULES
+Rule: Poor Localization
+Explanation: Language inconsistent with expected regional communication.
+Effect: Increase phishing likelihood
+
+Rule ID: LA_10
+Category: LINGUISTIC_ANOMALY_RULES
+Rule: Repeated Punctuation
+Explanation: Excessive punctuation such as "!!!" may indicate spam or phishing.
+Effect: Increase phishing likelihood
+
+========================
+LEGITIMATE EMAIL INDICATORS
+========================
+
+Rule ID: LE_01
+Category: LEGITIMATE_EMAIL_RULES
+Rule: Official Domain
+Explanation: Legitimate organizations communicate using official domains.
+Effect: Increase legitimacy likelihood
+
+Rule ID: LE_02
+Category: LEGITIMATE_EMAIL_RULES
+Rule: Personalized Greeting
+Explanation: Legitimate emails often address recipients by name.
+Effect: Increase legitimacy likelihood
+
+Rule ID: LE_03
+Category: LEGITIMATE_EMAIL_RULES
+Rule: Professional Language
+Explanation: Corporate emails usually maintain a professional tone.
+Effect: Increase legitimacy likelihood
+
+Rule ID: LE_04
+Category: LEGITIMATE_EMAIL_RULES
+Rule: Consistent Sender Identity
+Explanation: Sender identity matches the organization.
+Effect: Increase legitimacy likelihood
+
+Rule ID: LE_05
+Category: LEGITIMATE_EMAIL_RULES
+Rule: No Urgent Call-To-Action
+Explanation: Legitimate emails rarely pressure users into immediate action.
+Effect: Increase legitimacy likelihood
+
+Rule ID: LE_06
+Category: LEGITIMATE_EMAIL_RULES
+Rule: Verifiable Contact Information
+Explanation: Legitimate emails provide contact details.
+Effect: Increase legitimacy likelihood
+
+Rule ID: LE_07
+Category: LEGITIMATE_EMAIL_RULES
+Rule: Expected Communication
+Explanation: Email matches previous interactions with the organization.
+Effect: Increase legitimacy likelihood
+
+Rule ID: LE_08
+Category: LEGITIMATE_EMAIL_RULES
+Rule: Consistent Branding
+Explanation: Logos and formatting match official communication.
+Effect: Increase legitimacy likelihood
+
+Rule ID: LE_09
+Category: LEGITIMATE_EMAIL_RULES
+Rule: Secure Links
+Explanation: Links point to official HTTPS domains.
+Effect: Increase legitimacy likelihood
+
+Rule ID: LE_10
+Category: LEGITIMATE_EMAIL_RULES
+Rule: Normal Message Tone
+Explanation: Message tone consistent with routine communication.
+Effect: Increase legitimacy likelihood
